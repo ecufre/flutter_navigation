@@ -20,7 +20,9 @@ class _MyAppState extends State<MyApp> {
       onGenerateRoute: AppRouter.generatedRoutes,
       title: 'Flutter Navigation',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+        ),
       ),
     );
   }

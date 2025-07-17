@@ -24,7 +24,9 @@ class _InitializationScreenState extends State<InitializationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Initialization Screen')),
-      body: Center(child: CircularProgressIndicator.adaptive()),
+      body: Center(
+        child: CircularProgressIndicator.adaptive(),
+      ),
     );
   }
 }

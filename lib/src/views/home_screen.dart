@@ -22,7 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
               onPressed: () {
                 Navigator.of(context).pushNamed(
                   PathRoutes.secondPage,
-                  arguments: {'title': 'Second Screen'},
+                  arguments: {
+                    'title': 'Second Screen',
+                  },
                 );
               },
               child: Text('Second Screen'),
